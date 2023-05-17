@@ -1,0 +1,199 @@
+body {
+	/* Change the background of the entire site to light blue */
+	/* You can use hex-codes for colors, or basic colors such as red, green, blue */
+	background-color: rgb(10, 10, 10);
+	background-image : url("images/temp.png") ;
+	
+	color: #ffffff;
+	/* Change the font of the website to Arial */
+	font-family: Helvetica, Arial, sans-serif;
+	margin-left: 25px;
+	margin-top: 25px;
+	margin-right: 25px;
+	font-size: 20px;
+}
+
+p {
+	
+}
+
+td{
+	padding: 10px;
+	background-color: #0f0f0f;
+	border-radius: 20px;
+}
+
+h1 {
+	position: right;
+	font-size: 90px;
+	margin:0;
+	padding:0;
+	color: #F9F4F5;
+}
+
+
+h2 {
+	margin:0;
+	padding:0;
+	color:#F9F4F5;
+}
+
+h3 {
+	margin:0;
+	padding:0;
+	color: #F9F4F5;
+}
+strong{
+	color: #f36f6f;
+}
+
+img{
+	opacity: 75%;
+	max-width: 350px;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	border-radius: 20px;
+}
+img:hover{
+	opacity: 100%;
+	max-width: 350px;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	border-radius: 20px;
+}
+.imgs{
+	padding: 0;
+}
+/*=================================*/
+/* Grid settings */
+#grid {
+	margin: 100px;
+	display: grid;
+	grid-gap: 5px;
+	grid-auto-columns: minmax(auto, 350px);
+	grid-auto-rows: minmax(100px, auto);
+
+}
+#grid > div{
+	border-radius: 20px;
+}
+
+.cell{
+	padding: 20px;
+	background-color: #141919;
+}
+
+.cellproj{
+	/* padding: 0; */
+	grid-row-start:4;
+	background-color: #141919;
+	position: relative;
+	text-align: left;
+}
+
+.sub {
+	padding: 5px;
+}
+
+
+#one {
+	grid-column: 1/4;
+	grid-row: 1;
+
+	padding-top: 100px;
+
+}
+
+#two {
+	text-align: center;
+	padding-top: 20%;
+}
+
+#resume { 
+	grid-column: 3/5 ;
+	grid-row: 2;
+
+	text-align: center;
+
+}
+
+#social {
+	grid-column: 3/5;
+	grid-row: 5;
+
+}
+
+#projects {
+	grid-column: 1/4;
+	/* grid-row: 2; */
+	grid-row: 3;
+
+
+}
+
+#insp {
+	grid-column: 1;
+	grid-row: 3/5;
+}
+
+#tablecell{
+	grid-column: 2/5;
+}
+
+#other{
+	text-align: center;
+}
+/* Appearently this code is unnessary for some reason, i cant tell when computers get smart and when they cant even add 1 + 1*/
+/*#cadet1 {
+	grid-column: 2;
+	grid-row: 2;
+	background-color: none;
+}
+
+#cadet2 {
+	grid-column: 3;
+	grid-row: 2;
+	background-color: none;
+}
+
+#bnw {
+	grid-column: 4;
+	grid-row: 2;
+	background-color: none;
+}
+
+#bluboi {
+	grid-column: 2;
+	grid-row: 3;
+	background-color: none;
+}
+
+#eye {
+	grid-column: 3;
+	grid-row: 3;
+	background-color: none;
+}
+*/
+
+/*=================================*/
+
+
+/* styling hyperlinks */
+a:link {
+  color: cyan;
+}
+
+a:visited {
+  color: #d35ff2;
+
+}
+
+a:hover {
+  color: #415ff2;
+}
+
+a:active {
+  color: blue;
+} 
