@@ -197,3 +197,7 @@ a:hover {
 a:active {
   color: blue;
 } 
+
+.container {
+    padding: 50px;
+}
