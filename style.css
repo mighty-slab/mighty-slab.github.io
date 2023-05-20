@@ -2,7 +2,7 @@ body {
 	/* Change the background of the entire site to light blue */
 	/* You can use hex-codes for colors, or basic colors such as red, green, blue */
 	background-color: rgb(10, 10, 10);
-	background-image : url("images/temp.png") ;
+	background-image : url("images/bg.png") ;
 	
 	color: #ffffff;
 	/* Change the font of the website to Arial */
